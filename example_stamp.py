@@ -52,7 +52,7 @@ for tool in result["tools"]:
     print(f"  - {tool['name']}")
 
 # 3. Stamp a hash
-content = b"This compliance audit was completed on 2026-05-14 by AI Agent."
+content = b"This compliance audit was completed on 2026-06-03 by AI Agent."
 sha256 = hashlib.sha256(content).hexdigest()
 print(f"\nStamping hash: {sha256[:16]}...")
 
